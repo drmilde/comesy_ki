@@ -1,0 +1,10 @@
+{
+    "name": "CoMeSy",
+    "command": "detected command",
+    "speech": "detected speech",
+    "listening": "is comesy listening?",
+    "running": "is comesy running?",
+    "object": "object in focus",
+    "action": "current action",
+    "starting": "und wie, der Zustand wird gespeichert"
+}
