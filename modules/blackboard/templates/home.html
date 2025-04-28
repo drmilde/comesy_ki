@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<script>
+    setTimeout(function () {
+        window.location.reload();
+        console.log("ja");
+    }, 2000);
+</script>
+
+<body style="background-color: #abcdef;">
+
+    <h1>CoMeSy Blackboard</h1>
+
+    <p></p>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md">
+                <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Speech</div>
+                    <div class="card-body">
+                        <p class="card-text">{{ speech }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md">
+                <div class="card text-bg-info mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Command</div>
+                    <div class="card-body">
+                        <p class="card-text">{{ command }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md">
+                <div class="card text-bg-info mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Listening</div>
+                    <div class="card-body">
+                        <p class="card-text">{{ listening }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ZWEITE REIHE -->
+
+        <div class="row">
+
+            <div class="col-md">
+                <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Running</div>
+                    <div class="card-body">
+                        <p class="card-text">{{ running }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md">
+                <div class="card text-bg-info mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Object</div>
+                    <div class="card-body">
+                        <p class="card-text">{{ object }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md">
+                <div class="card text-bg-info mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Action</div>
+                    <div class="card-body">
+                        <p class="card-text">{{ action }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
